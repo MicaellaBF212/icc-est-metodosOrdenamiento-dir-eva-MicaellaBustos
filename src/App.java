@@ -5,9 +5,10 @@ public class App {
     public static void main(String[] args) throws Exception {
         CarController controller = new CarController();
         Car[] carros = makeCarsList();
-        controller.sortByname(carros);
+        controller.sortByName(carros);
         for (Car car: carros)
-            System.out.println(carros);
+            System.out.println(car);
+        
     }
 
     public static Car[] makeCarsList() {

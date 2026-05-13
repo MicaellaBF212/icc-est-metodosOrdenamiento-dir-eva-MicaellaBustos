@@ -30,7 +30,4 @@ public class Car {
   public String toString() {
     return "Car [name=" + name + ", year=" + year + "]";
   }
-
-  
-  
 }
